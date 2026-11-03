@@ -1,0 +1,7 @@
+{
+    "emailfield": "[type='email']",
+    "passwordfield": "[type='password']",
+    "continueButton": "button[type='submit']",
+    "email": "ayanloyesegun+6@gmail.com",
+    "password": "Password@@2"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "A Cypress project configured automatically",
+  "main": "index.js",
+  "scripts": {
+  "test": "cypress run",
+  "cy:login": "cypress run --spec \"cypress/e2e/features/login.feature\"",
+  "cy:dashboard": "cypress run --spec \"cypress/e2e/features/dashboard.feature\"",
+  "cy:userManagement": "cypress run --spec \"cypress/e2e/features/usermanagement.feature\"",
+  "cy:merchant": "cypress run --spec \"cypress/e2e/features/merchant.feature\"",
+  "cy:collection": "cypress run --spec \"cypress/e2e/features/collection.feature\"",
+  "cy:settlement": "cypress run --spec \"cypress/e2e/features/settle.feature\"",
+  "cy:transaction": "cypress run --spec \"cypress/e2e/features/transcation.feature\"",
+  "cy:run:all": "npm run cy:login && npm run cy:dashboard && npm run cy:userManagement && npm run cy:merchant && npm run cy:collection && npm run cy:settlement && npm run cy:transaction"
+},
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^24.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "cypress": "^15.18.1",
+    "esbuild": "^0.28.1",
+    "playwright-webkit": "latest"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": [
+      "cypress/e2e/features/stepdefinitions/**/*.js"
+    ],
+    "json": {
+      "enabled": true,
+      "output": "reports/json/results.json"
+    },
+    "html": {
+      "enabled": true,
+      "output": "reports/html/results.html"
+    }
+  }
+}

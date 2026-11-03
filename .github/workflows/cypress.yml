@@ -1,0 +1,44 @@
+name: Cypress Test Automation
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cypress-tests:
+    name: Run Cypress E2E Tests
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Run Cypress tests
+        uses: cypress-io/github-action@v7
+        with:
+          browser: chrome
+
+      - name: Upload screenshots on failure
+        if: failure()
+        uses: actions/upload-artifact@v6
+        with:
+          name: cypress-failure-screenshots
+          path: cypress/screenshots/
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Upload Cypress videos
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: cypress-videos
+          path: cypress/videos/
+          if-no-files-found: ignore
+          retention-days: 7
