@@ -11,6 +11,10 @@ When("I click on Transaction Management", () => {
     transaction.clickMgtbutton();
 });
 
+Then("I can see the Merchant button", () => {
+    transaction.verifymerchantButton();
+});
+
 Then("I search for a transaction", () => {
     transaction.searchtranscation();
 });

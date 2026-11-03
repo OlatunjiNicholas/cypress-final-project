@@ -84,13 +84,7 @@ class SettleMgtPage {
     }
 
 
-    clickConfigurationButton() {
-
-        cy.contains(this.configurationButton)
-            .should("be.visible")
-            .click();
-
-    }
+    // 
 
 
     // =========================

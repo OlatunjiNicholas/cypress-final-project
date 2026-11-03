@@ -1,1 +1,4529 @@
-[]
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "end-to-end-module-navigation;navigate-through-all-application-modules",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Navigate through all application modules",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5827000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter a valid email",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter a valid password",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 475000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click the Continue button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should be redirected to the Dashboard",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3440000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "Dashboard should load successfully",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 246000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should see the Dashboard page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 494000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I should see Transaction Trend",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I click on Daily transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 344000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I click on Weekly transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 662000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I click on Monthly transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 447000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click on Yearly transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 499000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I click on All transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 259000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I click on Withdrawal transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click on Purchase transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I click on Deposit transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I click on P2P transfer dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I click on Airtime transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I click on Bill payment transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I click on Refund transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I click on Reversal transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I click on Pre Auth transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I click on Completion transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I click on Balance transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I click on Account transfer transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should see the Performance",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I should see the Transaction Status",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "user click on overview button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 231000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "the user clicks on usermanagement button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "the user searches for a username",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "the user check on Role button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 47,
+            "name": "the user hovers on status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 244000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "the user selects All from the status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "the user selects Active from the status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 731000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "the user selects Suspended from the status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "the user selects Blocked from the status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 614000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "the user clicks on Add New User button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 415000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "fills the First Name field with a valid first name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "fills the Last Name field with a valid last name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 612000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "fills the Email field with a valid email address",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 915000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "user click on cancel button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "the user clicks on role button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 739000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "the user clicks on Add New Role button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 535000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "fills the Role Name field with a valid role name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1751000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "fills the Description field with a valid description",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 570000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "the user clicks on Continue button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 477000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "the user should nagivate to Manage Permisions page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 541000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 63,
+            "name": "the user clicks on cancel Tab",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1955000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 67,
+            "name": "User click on Merchant management button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 791000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "User click on Manage Merchant button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "User can search exiting record with name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3514000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "User click on search botton",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 805000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 71,
+            "name": "User click on Status dropdown status",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 554000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "User click All on status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "User click Active on status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 590000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 74,
+            "name": "User click  Suspended on status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 515000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "User exports Merchant records",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 77,
+            "name": "User click on Manage Branch button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 832000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 78,
+            "name": "User search existing record with name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4521000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "User click on Branch status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "User clcik on All status",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 81,
+            "name": "User click on Active status",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "User click on Suspended status",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 862000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 83,
+            "name": "User exports Branch records",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 378000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 87,
+            "name": "I click on Transaction Management",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 647000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "I can see the Merchant button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 89,
+            "name": "I click on Flow dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1642000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 90,
+            "name": "I select All Flows",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 91,
+            "name": "I select Credit",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 92,
+            "name": "I select Debit",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 94,
+            "name": "I click on Transaction Type dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 754000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 95,
+            "name": "I select All Types",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1565000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 96,
+            "name": "I select Withdrawal",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1329000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 97,
+            "name": "I select Purchase",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 959000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 98,
+            "name": "I select Transfer",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1523000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 99,
+            "name": "I select Account Transfer",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 999000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 100,
+            "name": "I select Airtime",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1099000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 101,
+            "name": "I select Bills Payment",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 102,
+            "name": "I select Refund",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 998000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 103,
+            "name": "I select Reversal",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1410000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 104,
+            "name": "I select Completion",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1417000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 106,
+            "name": "I click Status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 504000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 107,
+            "name": "I select All Status",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 760000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 108,
+            "name": "I select Successful",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1239000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 109,
+            "name": "I select Failed",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 110,
+            "name": "I select Pending",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1027000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 111,
+            "name": "I select Reversed",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 115,
+            "name": "I click on Collection Management button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 672000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 116,
+            "name": "I should see the collection preview",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 420000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 117,
+            "name": "I click on search field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 958000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 118,
+            "name": "I search for merchant",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1487000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 119,
+            "name": "I should see the selected merchant",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 121,
+            "name": "I click on Add new collection button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 916000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 122,
+            "name": "I should see create new collection",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 837000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 123,
+            "name": "I select Pay without ID",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 746000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 124,
+            "name": "Pay without ID should be selected",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 125,
+            "name": "I select Pay with ID",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 475000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 126,
+            "name": "Pay with ID should be selected",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 128,
+            "name": "I select merchant",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 129,
+            "name": "I assign the collection to selected branches",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1598000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 130,
+            "name": "selected branches should be checked",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 131,
+            "name": "I enter collection name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 950000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 132,
+            "name": "I verify the collection name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 133,
+            "name": "I select Add Single Payer",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 492000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 134,
+            "name": "I select Upload Bulk Payers",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 353000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 135,
+            "name": "Add Single Payer should be selected",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 777000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 137,
+            "name": "I enter payer name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1562000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 138,
+            "name": "I verify the payer name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 139,
+            "name": "I enter payer ID",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1507000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 140,
+            "name": "I verify payer ID",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 141,
+            "name": "I enter payer email",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 142,
+            "name": "I verify the payer email",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 143,
+            "name": "I enter payer phone number",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 145,
+            "name": "I click on payment expiration",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 436000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 146,
+            "name": "I click on Add a start date",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 426000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 147,
+            "name": "I select start date",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 148,
+            "name": "I click on Expire date field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2044000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 149,
+            "name": "I verify the Preview",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 150,
+            "name": "I click on cancel button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 511000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 151,
+            "name": "I should see cancel progress",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 152,
+            "name": "I click on No button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 451000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 153,
+            "name": "the cancel confirmation should close",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 875000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 155,
+            "name": "I should see configure input page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 156,
+            "name": "I verify add inputs field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 157,
+            "name": "I verify payer identifier field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 158,
+            "name": "I verify fullname field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 159,
+            "name": "I verify email field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 160,
+            "name": "I verify phone number field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 165,
+            "name": "I click on settlement management dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 376000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 166,
+            "name": "I click on All settlement",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 671000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 167,
+            "name": "I should see the Merchant page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 168,
+            "name": "I search for Taiwo",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1652000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 169,
+            "name": "I should see the merchant Taiwo",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2596000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 171,
+            "name": "I click on settlement dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 713000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 172,
+            "name": "I should see the settlement dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 645000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 173,
+            "name": "I select settlement type T1",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 174,
+            "name": "I select settlement type T2",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1089000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 175,
+            "name": "I select settlement type Instant",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1293000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 176,
+            "name": "I select settlement type Weekly",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1800000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 177,
+            "name": "I select settlement type All",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 179,
+            "name": "I click on Status",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 552000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 180,
+            "name": "I should see status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 528000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 181,
+            "name": "I select All status",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1042000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 182,
+            "name": "I select status Pending",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 610000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 183,
+            "name": "I select status Processing",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 184,
+            "name": "I select status Completed",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 185,
+            "name": "I select status Failed",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 186,
+            "name": "I select status Flagged",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 187,
+            "name": "I select status Hold",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 188,
+            "name": "I select status Under Review",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1820000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 189,
+            "name": "I select All status",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1659000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 191,
+            "name": "I click Export button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 776000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 192,
+            "name": "I click the first Action button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 989000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 193,
+            "name": "I click Next Page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1068000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 195,
+            "name": "I click on the Settlement Configuration",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2054000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 196,
+            "name": "I should see the Settlement Configuration page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 598000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 197,
+            "name": "I should see the Merchant Settlement Cycles section",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 390000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 198,
+            "name": "I click on Merchant tab",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 852000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 199,
+            "name": "I click on Agent tab",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1079000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 200,
+            "name": "I click on Configure Cycle",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6022000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 201,
+            "name": "I click Settlement Blacklist",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 825000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 205,
+            "name": "I click on profile button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 868000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 206,
+            "name": "I click the logout button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1143000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "end-to-end-module-navigation",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "End-to-End Module Navigation",
+    "tags": [],
+    "uri": "cypress\\e2e\\features\\EndtToEnd.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "function-collection-management;verify-and-create-new-collection-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify And Create New Collection page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the Create New Collection page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12498000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on Collection Management button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the collection preview",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 243000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I click on search field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 308000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I search for merchant",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 800000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the selected merchant",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click on Add new collection button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 239000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see create new collection",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I select Pay without ID",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 405000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Pay without ID should be selected",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I select Pay with ID",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Pay with ID should be selected",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I select merchant",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2439000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I assign the collection to selected branches",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 591000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "selected branches should be checked",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I enter collection name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 382000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I verify the collection name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I select Add Single Payer",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 207000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I select Upload Bulk Payers",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Add Single Payer should be selected",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 243000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I enter payer name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 553000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I verify the payer name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I enter payer ID",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 576000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I verify payer ID",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I enter payer email",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 730000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I verify the payer email",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "I enter payer phone number",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 767000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I click on payment expiration",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 236000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I click on Add a start date",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I select start date",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 878000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "I click on Expire date field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1033000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I verify the Preview",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I click on cancel button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "I should see cancel progress",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 189000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "I click on No button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "the cancel confirmation should close",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 325000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I should see configure input page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "I verify add inputs field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "I verify payer identifier field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "I verify fullname field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "I verify email field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "I verify phone number field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "function-collection-management",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Function Collection management",
+    "tags": [],
+    "uri": "cypress\\e2e\\features\\collection.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "dashboard;verify-dashboard-transaction-filters",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify Dashboard transaction filters",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User views Dashboard",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11718000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Dashboard should load successfully",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 465000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see the Dashboard page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 580000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I should see Transaction Trend",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click on Daily transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1027000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click on Weekly transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 398000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click on Monthly transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 393000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click on Yearly transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 466000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click on All transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 272000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click on Withdrawal transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I click on Purchase transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I click on Deposit transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click on P2P transfer dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 212000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I click on Airtime transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 176000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I click on Bill payment transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I click on Refund transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click on Reversal transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 296000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I click on Pre Auth transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I click on Completion transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I click on Balance transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I click on Account transfer transaction dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 156000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should see the Performance",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I should see the Transaction Status",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "dashboard",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Dashboard",
+    "tags": [],
+    "uri": "cypress\\e2e\\features\\dashboard.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-feature;successful-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successful Login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7663000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter a valid email",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1561000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter a valid password",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 587000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click the Continue button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be redirected to the Dashboard",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2889000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login feature",
+    "tags": [],
+    "uri": "cypress\\e2e\\features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "logout-page;logout-from-the-application",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Logout from the application",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am logged in to the application",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on profile button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 395000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I click the logout button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 320000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "logout-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Logout page",
+    "tags": [],
+    "uri": "cypress\\e2e\\features\\logout.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "merchant-management-description;user-can-observe-merchant-record",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User can observe Merchant record",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigate to Merchant Mgt",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User click on Merchant management button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 395000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User click on Manage Merchant button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 407000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User can search exiting record with name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User click on search botton",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 271000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User click on Status dropdown status",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User click All on status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User click Active on status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User click  Suspended on status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 486000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User exports Merchant records",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User click on Manage Branch button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 488000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User search existing record with name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User click on Branch status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 189000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User clcik on All status",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User click on Active status",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User click on Suspended status",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 690000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User exports Branch records",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 384000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "merchant-management-description",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Merchant Management Description",
+    "tags": [],
+    "uri": "cypress\\e2e\\features\\merchant.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "settlement-management;user-can-view-and-search-merchant-settlement-records",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User can view and search Merchant Settlement records",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on Dashboard page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on settlement management dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 541000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I click on All settlement",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 344000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the Merchant page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1383000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I search for Taiwo",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 734000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the merchant Taiwo",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 180000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click on settlement dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see the settlement dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 250000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I select settlement type T1",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 427000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I select settlement type T2",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 509000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I select settlement type Instant",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 485000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I select settlement type Weekly",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 681000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I select settlement type All",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 512000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I click on Status",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 260000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I should see status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 199000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I select All status",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 460000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I select status Pending",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 202000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I select status Processing",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I select status Completed",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I select status Failed",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I select status Flagged",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I select status Hold",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I select status Under Review",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 800000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I select All status",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 700000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I click Export button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 392000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "I click the first Action button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "I click Next Page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 358000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I click on the Settlement Configuration",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 637000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I should see the Settlement Configuration page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should see the Merchant Settlement Cycles section",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 177000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "I click on Merchant tab",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 521000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I click on Agent tab",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "I click on Configure Cycle",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1790000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "I click Settlement Blacklist",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 377000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "settlement-management",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Settlement Management",
+    "tags": [],
+    "uri": "cypress\\e2e\\features\\settle.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "transaction-management;user-can-filter-transactions",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User can filter transactions",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I can see the Transaction Management button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12917000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on Transaction Management",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 623000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I can see the Merchant button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 194000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I click on Flow dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 519000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I select All Flows",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 554000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I select Credit",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 544000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I select Debit",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 405000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I click on Transaction Type dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 335000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I select All Types",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I select Withdrawal",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 761000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I select Purchase",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 687000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I select Transfer",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 702000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I select Account Transfer",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 400000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I select Airtime",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 853000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I select Bills Payment",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 778000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I select Refund",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 767000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I select Reversal",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 608000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I select Completion",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 706000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I click Status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I select All Status",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 690000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I select Successful",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1382000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I select Failed",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 720000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I select Pending",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 834000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I select Reversed",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 628000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "transaction-management",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Transaction Management",
+    "tags": [],
+    "uri": "cypress\\e2e\\features\\transcation.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-management;user-can-create-a-new-account",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "user can create a new account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the User Management page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10967000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user click on overview button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 589000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the user clicks on usermanagement button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 282000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user searches for a username",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2260000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user check on Role button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user hovers on status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user selects All from the status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 625000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user selects Active from the status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 444000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user selects Suspended from the status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 441000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the user selects Blocked from the status dropdown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 517000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "the user clicks on Add New User button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 390000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "fills the First Name field with a valid first name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 665000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "fills the Last Name field with a valid last name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 572000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "fills the Email field with a valid email address",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 830000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "user click on cancel button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "the user clicks on role button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 412000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the user clicks on Add New Role button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 408000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "fills the Role Name field with a valid role name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 455000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "fills the Description field with a valid description",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 460000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "the user clicks on Continue button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 243000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the user should nagivate to Manage Permisions page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 260000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the user clicks on cancel Tab",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 457000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-management",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Management",
+    "tags": [],
+    "uri": "cypress\\e2e\\features\\usermanagement.feature"
+  }
+]

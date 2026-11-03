@@ -84,7 +84,8 @@ Feature: End-to-End Module Navigation
 
     # MODULE 5: TRANSACTION MANAGEMENT
     # Given I can see the Transaction Management button
-     When I click on Transaction Management
+    When I click on Transaction Management
+    Then I can see the Merchant button
     Then I click on Flow dropdown
     And I select All Flows
     And I select Credit
@@ -157,7 +158,7 @@ Feature: End-to-End Module Navigation
     Then I verify fullname field
     Then I verify email field
     Then I verify phone number field
-    
+
 
     # MODULE 7: SETTLEMENT MANAGEMENT
     # Given I am on Dashboard page
@@ -201,7 +202,7 @@ Feature: End-to-End Module Navigation
 
     # MODULE 8: LOGOUT
     #     Given I am logged in to the application
-        When I click on profile button
-        Then I click the logout button
+    When I click on profile button
+    Then I click the logout button
 
 

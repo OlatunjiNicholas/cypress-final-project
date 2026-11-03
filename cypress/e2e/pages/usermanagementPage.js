@@ -58,6 +58,7 @@ class UserManagementPage {
         cy.get(this.selectRole)
             .should('be.visible')
             .and('contain.text', 'Role')
+            
     }
 
     clickStatusButton() {
@@ -66,6 +67,9 @@ class UserManagementPage {
             .click()
     }
     clickAllStatus() {
+        cy.contains(this.statusButton)
+            .click()
+
         cy.contains(this.allStatusdropdown)
             .should('be.visible')
             .and('contain.text', 'All')
@@ -73,73 +77,125 @@ class UserManagementPage {
 
     }
     clickActiveStatus() {
-        // cy.get(this.clickStatusButton)
-        cy.contains(this.activeStatusdropdown).should('be.visible').and('contain.text', 'Active').click()
+        cy.contains(this.statusButton)
+            .click()
+        
+        cy.contains(this.activeStatusdropdown)
+        .should('be.visible')
+        .and('contain.text', 'Active')
+        .click()
 
     }
+
     clickSuspendedStatus() {
-        // cy.get(this.clickStatusButton)
-        cy.contains(this.suspendedStatusdropdown).should('be.visible').and('contain.text', 'Suspended').click({force: true})
+        cy.contains(this.statusButton)
+            .click()
+
+        cy.contains(this.suspendedStatusdropdown)
+            .should('be.visible')
+            .and('contain.text', 'Suspended')
+            .click()
+    
+
        
     }
     clickBlockedStatus() {
-        // cy.get(this.clickStatusButton)
-        cy.contains(this.blockedStatusdropdown).should('be.visible').and('contain.text', 'Blocked').click()
+        cy.contains(this.statusButton)
+            .click()
+       
+        cy.contains(this.blockedStatusdropdown)
+            .should('be.visible')
+            .and('contain.text', 'Blocked')
+            .click()
     
     }
 
     clickExportButton() {
-        cy.contains(this.exportButton).should('exist').click()
+        cy.contains(this.exportButton)
+            .should('exist')
+            .click()
+
     }
 
     clickAddNewUser() {
-        cy.get(this.addnewuserButton).should('be.visible').click()
+        cy.get(this.addnewuserButton)
+            .should('be.visible')
+            .click();
     }
 
     createNewuserFirst() {
-        cy.get(this.firstnameField).should('be.visible').type('Ayan')
+        cy.get(this.firstnameField)
+            .should('be.visible')
+            .type('Ayan')
     }
 
     creatNewuserLast() {
-        cy.get(this.lastnameField).should('be.visible').type('Loyesegun').should('be.visible')
+        cy.get(this.lastnameField)
+            .should('be.visible')
+            .type('Loyesegun')
     }
 
     createnewuserEmail() {
-        cy.get(this.emailField).should('exist').type('olanic@gmail.com').should('be.visible')
+        cy.get(this.emailField)
+            .should('exist')
+            .type('olanic@gmail.com')
+            .should('be.visible')
     }
 
     clickCancelButton() {
-        cy.get(this.cancelButton).click()
+        cy.get(this.cancelButton)
+            .should('be.visible')
+            .click()
     }
     
     clickRolesButtonTab() {
-        cy.contains(this.rolesButton).should('be.visible').click()
+        cy.contains(this.rolesButton)
+            .should('be.visible')
+            .click()
     }
 
     clickAddNewRole() {
-        cy.get(this.addnewRoleButton).should('be.visible').click()
+        cy.get(this.addnewRoleButton)
+            .should('be.visible')
+            .click()
     }
 
     enterRoleName() {
-        cy.get(this.rolenameField).should('be.visible').type('Admin')
+        cy.get(this.rolenameField)
+            .should('be.visible')
+            .type('Admin')
     }
 
     enterDescription() {
-        cy.get(this.descriptionField).should('be.visible').type('Admin role')
+        cy.get(this.descriptionField)
+            .should('be.visible')
+            .type('Admin role')
     }
 
     setupRoleContinue() {
-        cy.get(this.continueButton).click()
+        cy.get(this.continueButton)
+            .should('be.visible')
+            .click()
     }
     setupManagePermissionsHeader() {
-        cy.contains(this.managePermissionsHeader).should('be.visible').should('contain.text', 'Manage Permissions')
+        cy.contains(this.managePermissionsHeader)
+            .should('be.visible')
+            .should('contain.text', 'Manage Permissions')
     }
 
     clickCancelTab() {
-        cy.get(this.cancelTab)
-        // .should('be.visible')
-        .click({force: true})
-    }
+
+        cy.get('.ant-modal:visible', { timeout: 15000 })
+        .should('exist');
+
+        cy.get('.ant-modal:visible')
+        .find('.ant-modal-close')
+        .should('be.visible')
+        .click();
+
+        cy.get('.ant-modal:visible')
+        .should('not.exist');
+        }
 
 }
 export default UserManagementPage 

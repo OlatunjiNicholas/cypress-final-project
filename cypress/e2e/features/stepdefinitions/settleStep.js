@@ -203,22 +203,3 @@ When("I click Settlement Blacklist", () => {
 });
 
 
-// When("I click on configure cycle", () => {
-
-//     settleMgt.searchSettlementMerchant();
-
-// });
-
-
-// When("I click on Export", () => {
-
-//     settleMgt.clickExport();
-
-// });
-
-
-// Then("I should see the merchant settlement table", () => {
-
-//     settleMgt.verifyMerchantSettlementTable();
-
-// });

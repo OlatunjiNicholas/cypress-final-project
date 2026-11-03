@@ -5,6 +5,7 @@ Feature: Transaction Management
     Given I can see the Transaction Management button
 
     When I click on Transaction Management
+    Then I can see the Merchant button
     Then I click on Flow dropdown
     And I select All Flows
     And I select Credit

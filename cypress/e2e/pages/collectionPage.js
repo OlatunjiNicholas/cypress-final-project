@@ -28,7 +28,7 @@ class CollectionMgtPage {
     payerPhoneInput = 'input[placeholder="Enter payer\'s phone number"]';
     addSinglePayerText = "Add Single Payer";
     uploadBulkPayersText = ("span", "Upload Bulk Payers");
-    addSinglePayer = 'input[type="checkbox"]';
+
     uploadBulkPayers = 'input[type="checkbox"]';
     payeraddlater = "Payers can be added later in Merchant/Collection feature"
     expiredcheckbox = "Set a payment expiration"
@@ -58,7 +58,6 @@ class CollectionMgtPage {
     dataTypeLabel = 'label';
     formatConditionsLabel = 'label';
     requiredFieldText = 'Field is Required (Compulsory)';
-    cancelButton = 'button';
     submitButton = 'button';
 
     // =========================

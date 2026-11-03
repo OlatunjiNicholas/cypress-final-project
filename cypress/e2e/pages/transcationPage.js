@@ -2,7 +2,7 @@
 class TranscationPage {
     transcationMgtButton = "Transaction Mgt"
     merchantButton = "Merchant"
-
+    transcationMGT =':nth-child(6) > .w-full > .font-medium'
     searchField = '[type="search"]'
     searchButton = '.ant-input-group-addon > .ant-btn'
     agentTranButton = '[type="button"]'
@@ -36,13 +36,15 @@ class TranscationPage {
     agentsearchBotton = '[type="button"]'
 
     clickMgtbutton() {
-        cy.contains(this.transcationMgtButton)
+        
+        cy.contains(this.transcationMgtButton,{waiting :15000})
             .should('exist')
-            .and('contain.text', 'Transaction Mgt')
             .click();
-
+    }
+    verifymerchantButton() {
         cy.contains(this.merchantButton)
-            .should('exist').and('be.visible')
+            .should('exist')
+            .and('be.visible')
             .should('contain.text', 'Merchant');
 
     }
@@ -79,12 +81,11 @@ class TranscationPage {
     selectCredit() {
         cy.contains(this.flowdropdownButton)
             .click();
-
         cy.contains(this.flowdropdownCredit)
             .should('exist')
-            .click()
-            .get(this.cancel)
-            .click();
+            .click({force:true})
+            .get('.ant-modal-close')
+            .click({force:true });
     }
 
     selectDebit() {
@@ -93,9 +94,9 @@ class TranscationPage {
 
         cy.contains(this.flowdropdownDebit)
             .should('exist')
-            .click()
-            .get(this.cancel)
-            .click();
+            .click({force:true})
+            // .get('.ant-modal-close')
+            // .click({force:true });
     }
 
     clickCancel() {
@@ -137,8 +138,8 @@ class TranscationPage {
         cy.contains(this.trantypedropdownPurchase)
             .should('be.visible')
             .click({force:true})
-            .get('.ant-modal-close-x')
-            .click();;
+            // .get('.ant-modal-close-x')
+            // .click();
     }
 
     selectTransfer() {
@@ -147,9 +148,9 @@ class TranscationPage {
 
         cy.contains(this.trantypedropdownTransfer)
             .should('be.visible')
-            .click({force:true})
-            .get('.ant-modal-close-x')
-            .click();
+            .click()
+            // .get('.ant-modal-close-x')
+            // .click();
     }
 
     selectAccountTransfer() {
@@ -159,8 +160,8 @@ class TranscationPage {
         cy.contains(this.trantypedropdownaccountTransfer)
             .should('be.visible')
             .click({force:true})
-            .get('.ant-modal-close-x')
-            .click();
+            // .get('.ant-modal-close-x')
+            // .click();
             
             
     }

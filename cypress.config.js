@@ -1,35 +1,59 @@
 
-import { defineConfig } from "cypress";
-import createBundler from "@bahmutov/cypress-esbuild-preprocessor";
-import {
-  addCucumberPreprocessorPlugin,
-} from "@badeball/cypress-cucumber-preprocessor";
-import {
-  createEsbuildPlugin,
-} from "@badeball/cypress-cucumber-preprocessor/esbuild";
+const { defineConfig } = require("cypress");
 
-export default defineConfig({
+const createBundler = require(
+  "@bahmutov/cypress-esbuild-preprocessor"
+);
+
+const {
+  addCucumberPreprocessorPlugin,
+} = require("@badeball/cypress-cucumber-preprocessor");
+
+const {
+  createEsbuildPlugin,
+} = require("@badeball/cypress-cucumber-preprocessor/esbuild");
+
+module.exports = defineConfig({
+
+  // Video and screenshot settings
+  video: true,
+  screenshotOnRunFailure: true,
+
+  // Browser viewport
   viewportWidth: 1920,
   viewportHeight: 1080,
-  defaultCommandTimeout: 10000,
-  waitTimeout : 10000,
-  pageLoadTimeout: 10000,
-  
-  // requestTimeout: 10000,
-  // responseTimeout: 10000,
+
+  // Timeout settings
+  defaultCommandTimeout: 15000,
+  pageLoadTimeout: 60000,
+  requestTimeout: 15000,
+  responseTimeout: 30000,
+
+  // Retry failed tests
+  retries: {
+    runMode: 1,
+    openMode: 0,
+  },
 
   e2e: {
+    // Remote application
     baseUrl: "https://admin.proxima.ng",
 
+    // BDD feature files
     specPattern: "cypress/e2e/features/**/*.feature",
 
     async setupNodeEvents(on, config) {
+
+      // Initialize Cucumber
       await addCucumberPreprocessorPlugin(on, config);
 
+      // Configure esbuild
       on(
         "file:preprocessor",
         createBundler({
-          plugins: [createEsbuildPlugin(config)],
+          plugins: [
+            createEsbuildPlugin(config),
+          ],
         })
       );
 

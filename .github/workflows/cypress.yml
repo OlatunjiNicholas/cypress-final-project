@@ -1,10 +1,17 @@
-name: Cypress Test Automation
+
+name: Cypress BDD Automation
 
 on:
   push:
-    branches: [main, master]
+    branches:
+      - main
+      - master
+
   pull_request:
-    branches: [main, master]
+    branches:
+      - main
+      - master
+
   workflow_dispatch:
 
 permissions:
@@ -12,33 +19,35 @@ permissions:
 
 jobs:
   cypress-tests:
-    name: Run Cypress E2E Tests
+    name: Execute All BDD Tests
     runs-on: ubuntu-24.04
-    timeout-minutes: 20
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
-      - name: Run Cypress tests
+      - name: Run Cypress BDD tests
         uses: cypress-io/github-action@v7
         with:
           browser: chrome
+          command: npm run cy:run:bdd
+        env:
+          CYPRESS_ADMIN_EMAIL: ${{ secrets.CYPRESS_ADMIN_EMAIL }}
+          CYPRESS_ADMIN_PASSWORD: ${{ secrets.CYPRESS_ADMIN_PASSWORD }}
 
-      - name: Upload screenshots on failure
+      - name: Upload screenshots
         if: failure()
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v4
         with:
-          name: cypress-failure-screenshots
+          name: Cypress-Failure-Screenshots
           path: cypress/screenshots/
           if-no-files-found: ignore
-          retention-days: 7
 
-      - name: Upload Cypress videos
+      - name: Upload videos
         if: always()
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v4
         with:
-          name: cypress-videos
+          name: Cypress-Test-Videos
           path: cypress/videos/
           if-no-files-found: ignore
-          retention-days: 7
